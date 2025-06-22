@@ -39,3 +39,22 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.responsive-btn{
+  margin-top: 6%;
+  font-size: 2rem;
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media (max-width: 767px) {
+  .responsive-btn {
+    margin-left: 45%;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-btn {
+    margin-left: 48.5%;
+  }
+}
